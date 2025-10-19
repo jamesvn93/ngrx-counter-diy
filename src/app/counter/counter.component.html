@@ -1,0 +1,13 @@
+
+<div class="counter-card">
+    <h2 class="counter-title">NgRx Counter Example <span class="counter-emoji">🔢</span></h2>
+    <div class="counter-value">
+        <span>Current value:</span>
+        <span class="value">{{ counter$ | async }}</span>
+    </div>
+    <div class="counter-buttons">
+        <button class="counter-btn increment" (click)="increment()">▲ Increment</button>
+        <button class="counter-btn decrement" (click)="decrement()">▼ Decrement</button>
+        <button class="counter-btn reset" (click)="reset()">⟳ Reset</button>
+    </div>
+</div>
