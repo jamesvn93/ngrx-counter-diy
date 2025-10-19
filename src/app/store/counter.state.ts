@@ -1,7 +1,10 @@
+
+// INSTRUCTIONS:
+// Define your state interface and initial state here.
 export interface CounterState {
-  value: number;
+	// Tip: Add properties to represent your counter state, e.g. value: number
 }
 
 export const initialCounterState: CounterState = {
-  value: 0
+	// Tip: Set initial values for your state properties, e.g. value: 0
 };

@@ -1,5 +1,10 @@
+
 import { createAction } from '@ngrx/store';
 
-export const increment = createAction('[Counter] Increment');
-export const decrement = createAction('[Counter] Decrement');
-export const reset = createAction('[Counter] Reset');
+// INSTRUCTIONS:
+// Define your NgRx actions here using createAction.
+// Example:
+// export const increment = createAction('[Counter] Increment');
+
+// Tip: Actions represent events that trigger state changes. Try creating actions for increment, decrement, and reset.
+// https://ngrx.io/guide/store/actions

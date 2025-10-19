@@ -6,7 +6,7 @@ body {
 	min-height: 100vh;
 }
 
-.counter-card {
+.ngrx-counter-diy-card {
 	background: #fff;
 	border-radius: 18px;
 	box-shadow: 0 4px 24px rgba(60, 72, 88, 0.12);
@@ -17,11 +17,11 @@ body {
 	transition: box-shadow 0.2s;
 }
 
-.counter-card:hover {
+.ngrx-counter-diy-card:hover {
 	box-shadow: 0 8px 32px rgba(60, 72, 88, 0.18);
 }
 
-.counter-title {
+.ngrx-counter-diy-title {
 	font-size: 2rem;
 	font-weight: 600;
 	margin-bottom: 1.2rem;
@@ -29,11 +29,11 @@ body {
 	letter-spacing: 0.5px;
 }
 
-.counter-emoji {
+.ngrx-counter-diy-emoji {
 	font-size: 1.5rem;
 }
 
-.counter-value {
+.ngrx-counter-diy-value {
 	font-size: 1.1rem;
 	margin-bottom: 1.5rem;
 	color: #475569;
@@ -43,20 +43,20 @@ body {
 	gap: 0.5rem;
 }
 
-.counter-value .value {
+.ngrx-counter-diy-value .value {
 	font-size: 2.2rem;
 	font-weight: bold;
 	color: #2563eb;
 	margin-left: 0.5rem;
 }
 
-.counter-buttons {
+.ngrx-counter-diy-buttons {
 	display: flex;
 	justify-content: center;
 	gap: 0.7rem;
 }
 
-.counter-btn {
+.ngrx-counter-diy-btn {
 	padding: 0.6rem 1.2rem;
 	border: none;
 	border-radius: 8px;
@@ -67,29 +67,29 @@ body {
 	box-shadow: 0 2px 8px rgba(60, 72, 88, 0.08);
 }
 
-.counter-btn.increment {
+.ngrx-counter-diy-btn.increment {
 	background: #4ade80;
 	color: #065f46;
 }
-.counter-btn.increment:hover {
+.ngrx-counter-diy-btn.increment:hover {
 	background: #22d3ee;
 	color: #0e7490;
 }
 
-.counter-btn.decrement {
+.ngrx-counter-diy-btn.decrement {
 	background: #fca5a5;
 	color: #991b1b;
 }
-.counter-btn.decrement:hover {
+.ngrx-counter-diy-btn.decrement:hover {
 	background: #f87171;
 	color: #7f1d1d;
 }
 
-.counter-btn.reset {
+.ngrx-counter-diy-btn.reset {
 	background: #e0e7ff;
 	color: #3730a3;
 }
-.counter-btn.reset:hover {
+.ngrx-counter-diy-btn.reset:hover {
 	background: #c7d2fe;
 	color: #1e293b;
 }

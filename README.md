@@ -1,7 +1,11 @@
 
-# NgRx Counter Example
 
-This is a simple Angular application demonstrating the basics of NgRx Store for state management. The app features a counter with increment and decrement actions, providing a clear example of how to use actions, reducers, selectors, and effects in NgRx.
+# ngrx-counter-diy
+
+
+This is a "try it yourself" example of a counter app using NgRx in Angular. The basics of the app are implemented, but you will need to manually implement the actual NgRx store logic—including actions, effects, reducers, and selectors. This project is designed to help you learn by building out the state management yourself.
+
+For more information and documentation, visit the official NgRx site: [https://ngrx.io/](https://ngrx.io/)
 
 ## Getting Started
 
